@@ -20,8 +20,15 @@ body {
 }
 
 .bigItem {
-  grid-row-start: 2;
-  grid-row-end: 7;
-  grid-column-start: 2;
-  grid-column-end: 4;
+  grid-area: 2 / 2 / 4 / 4;
+  height: 50%;
+  width: 50%;
+  justify-self: center;
 }
+.gridContainer{
+  display: grid;
+  grid-template-rows: : 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
